@@ -191,7 +191,7 @@ const setTheme = (theme) => {
     root.style.setProperty("--primary-color", theme.primaryColor);
 };
 
-const displayThemeButtons = () => 
+const displayThemeButtons = () => {
     const btnContainer = document.querySelector(".theme-btn-container");
     themes.forEach((theme) => {
         const div = document.createElement("div");
