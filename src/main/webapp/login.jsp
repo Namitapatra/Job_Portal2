@@ -186,7 +186,7 @@ const themes = [
 
 const setTheme = (theme) => {
     const root = document.querySelector(":root");
-    root.style.setProperty("--background", theme.background);
+    root.style.setProperty("--background", theme.background); 
     root.style.setProperty("--color", theme.color);
     root.style.setProperty("--primary-color", theme.primaryColor);
 };
@@ -203,5 +203,5 @@ const displayThemeButtons = () => {
 };
 
 displayThemeButtons();
-</script>
+</script> 
 </html>
